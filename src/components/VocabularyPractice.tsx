@@ -6,6 +6,7 @@ import { Skeleton } from '@/components/ui/skeleton';
 import { ChevronDown, Play, BookOpen, Award, TrendingUp, ArrowLeft, ArrowRight, RotateCcw, Shuffle, Brain, Trophy, AlertCircle, Loader2 } from 'lucide-react';
 import businessHero from '@/assets/business-hero-bg.jpg';
 import GoogleSheetsConfig from './GoogleSheetsConfig';
+import { supabase } from '@/lib/supabase';
 
 interface VocabularyCard {
   word: string;
@@ -54,41 +55,30 @@ Unit 2,decentralise,verb,"to give some of the power of a central government, org
 Unit 3,customs,noun,"the place at a port, airport or border where officials check goods or people coming into a country",ˈkʌs.təmz,18.0
 Unit 4,brief,noun,"a set of instructions or information",briːf,20.0`;
 
-  // Fetch data from Google Sheets
+  // Fetch data from Google Sheets via edge function
   const fetchFromGoogleSheets = async (sheetId: string) => {
     try {
       setIsLoading(true);
       setError('');
       
-      const apiKey = process.env.GOOGLE_SHEETS_API_KEY;
-      if (!apiKey) {
-        throw new Error('Google Sheets API key not configured');
+      const { data, error } = await supabase.functions.invoke('fetch-vocabulary', {
+        body: { sheetId }
+      });
+      
+      if (error) {
+        throw new Error(error.message || 'Failed to fetch vocabulary data');
       }
       
-      const range = 'A:F'; // Assumes data in columns A-F
-      const url = `https://sheets.googleapis.com/v4/spreadsheets/${sheetId}/values/${range}?key=${apiKey}`;
-      
-      const response = await fetch(url);
-      if (!response.ok) {
-        throw new Error(`Failed to fetch data: ${response.statusText}`);
+      if (!data || !data.success) {
+        throw new Error(data?.error || 'Failed to fetch vocabulary data');
       }
       
-      const data = await response.json();
-      if (!data.values || data.values.length === 0) {
-        throw new Error('No data found in spreadsheet');
-      }
-      
-      // Convert Google Sheets data to CSV format
-      const csvData = data.values
-        .map((row: string[]) => row.map(cell => `"${cell || ''}"`).join(','))
-        .join('\n');
-      
-      parseCSV(csvData);
-      setLastUpdated(new Date());
+      parseCSV(data.csvData);
+      setLastUpdated(new Date(data.lastUpdated));
       
       // Cache data in localStorage
-      localStorage.setItem('vocabulary-data', csvData);
-      localStorage.setItem('vocabulary-last-updated', new Date().toISOString());
+      localStorage.setItem('vocabulary-data', data.csvData);
+      localStorage.setItem('vocabulary-last-updated', data.lastUpdated);
       
     } catch (err) {
       console.error('Error fetching from Google Sheets:', err);
