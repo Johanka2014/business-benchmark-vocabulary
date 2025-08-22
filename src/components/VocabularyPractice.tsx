@@ -2,11 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Card } from '@/components/ui/card';
-import { Skeleton } from '@/components/ui/skeleton';
-import { ChevronDown, Play, BookOpen, Award, TrendingUp, ArrowLeft, ArrowRight, RotateCcw, Shuffle, Brain, Trophy, AlertCircle, Loader2 } from 'lucide-react';
+import { ChevronDown, Play, BookOpen, Award, TrendingUp, ArrowLeft, ArrowRight, RotateCcw, Shuffle, Brain, Trophy } from 'lucide-react';
 import businessHero from '@/assets/business-hero-bg.jpg';
-import GoogleSheetsConfig from './GoogleSheetsConfig';
-import { supabase } from '@/lib/supabase';
 
 interface VocabularyCard {
   word: string;
@@ -27,11 +24,6 @@ const VocabularyPractice = () => {
   const [units, setUnits] = useState<Unit[]>([]);
   const [currentDeck, setCurrentDeck] = useState<VocabularyCard[]>([]);
   
-  // Data loading states
-  const [isLoading, setIsLoading] = useState(true);
-  const [error, setError] = useState<string>('');
-  const [lastUpdated, setLastUpdated] = useState<Date | null>(null);
-  
   // Flashcard state
   const [currentCardIndex, setCurrentCardIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
@@ -44,80 +36,35 @@ const VocabularyPractice = () => {
   const [showFeedback, setShowFeedback] = useState(false);
   const [quizOptions, setQuizOptions] = useState<string[]>([]);
 
-  // Fallback CSV data
-  const fallbackCsvData = `Unit,Word,Comment,Definition,Pronunciation,Page
+  // Parse CSV data
+  useEffect(() => {
+    const csvData = `Unit,Word,Comment,Definition,Pronunciation,Page
 Unit 1,bonus,noun,"an amount of money given to an employee in addition to their salary as a reward for working well",ˈbəʊ.nəs,8.0
 Unit 1,committed,adjective,"loyal and willing to give your time and energy to something that you believe in",kəˈmɪt.ɪd ,11.0
 Unit 1,computer literate R,adjective phrase,"able to use computers effectively",kəmˈpjuː.tə ˈlɪt.ər.ət,10.0
 Unit 1,consistent,adjective,"always behaving or happening in a similar, especially positive, way",kənˈsɪs.tənt,8.0
+Unit 1,core skill R,noun phrase," a particular ability that you develop through training and experience and that is necessary to do a particular job",kɔː skɪl,10.0
+Unit 1,corporate culture,noun phrase,"the beliefs and ideas that a company has and the way in which they affect how it does business and how its employees behave",ˈkɔː.pər.ət ˈkʌl.tʃə,10.0
+Unit 1,dedicated,adjective,"used only for one particular purpose or job",ˈded.ɪ.keɪ.tɪd,8.0
+Unit 1,diverse,adjective,"varied or different",daɪˈvɜːs,8.0
+Unit 1,do overtime,verb phrase,"to work after the usual time needed or expected in a job",duː ˈəʊ.və.taɪm,11.0
+Unit 1,dynamic,adjective,"continuously changing or developing",daɪˈnæm.ɪk,8.0
 Unit 2,downsize,verb,"to reduce the number of people who work in a company, business, etc. in order to reduce costs",ˈdaʊn.saɪz,12.0
 Unit 2,decentralise,verb,"to give some of the power of a central government, organisation, etc. to smaller parts or organisations around the country",ˌdiːˈsen.trəl.aɪz,12.0
+Unit 2,deregulate,verb,"to remove national or local government controls or rules from a business or other activity",ˌdiːˈreɡ.jə.leɪt,12.0
+Unit 2,headquarters,noun,"the main office or centre of control of a company, organisation, etc.",ˌhedˈkwɔː.təz,12.0
+Unit 2,outsource,verb,"to arrange for somebody outside a company to do work or provide goods for that company",ˈaʊt.sɔːs,14.0
+Unit 2,streamline,verb,"to make a system, an organisation, etc. work better, especially in a way that saves money",ˈstriːm.laɪn,12.0
 Unit 3,customs,noun,"the place at a port, airport or border where officials check goods or people coming into a country",ˈkʌs.təmz,18.0
-Unit 4,brief,noun,"a set of instructions or information",briːf,20.0`;
+Unit 3,warehouse,noun,"a building where large quantities of goods are stored, especially before they are sent to shops/stores to be sold",ˈweə.haʊs,18.0
+Unit 3,logistics,noun,"the practical organisation of something",ləˈdʒɪs.tɪks,18.0
+Unit 3,procurement,noun,"the process of obtaining supplies of something, especially for a government or an organisation",prəˈkjʊə.mənt,18.0
+Unit 4,brief,noun,"a set of instructions or information",briːf,20.0
+Unit 4,deadline,noun,"a point in time by which something must be done",ˈded.laɪn,20.0
+Unit 4,involve,verb,"to include or affect someone or something",ɪnˈvɒlv,20.0
+Unit 4,milestone,noun,"a very important stage or event in the development of something",ˈmaɪl.stəʊn,20.0`;
 
-  // Fetch data from Google Sheets via edge function
-  const fetchFromGoogleSheets = async (sheetId: string) => {
-    try {
-      setIsLoading(true);
-      setError('');
-      
-      const { data, error } = await supabase.functions.invoke('fetch-vocabulary', {
-        body: { sheetId }
-      });
-      
-      if (error) {
-        throw new Error(error.message || 'Failed to fetch vocabulary data');
-      }
-      
-      if (!data || !data.success) {
-        throw new Error(data?.error || 'Failed to fetch vocabulary data');
-      }
-      
-      parseCSV(data.csvData);
-      setLastUpdated(new Date(data.lastUpdated));
-      
-      // Cache data in localStorage
-      localStorage.setItem('vocabulary-data', data.csvData);
-      localStorage.setItem('vocabulary-last-updated', data.lastUpdated);
-      
-    } catch (err) {
-      console.error('Error fetching from Google Sheets:', err);
-      setError(err instanceof Error ? err.message : 'Failed to load vocabulary data');
-      
-      // Try to load from cache first, then fallback
-      const cachedData = localStorage.getItem('vocabulary-data');
-      if (cachedData) {
-        parseCSV(cachedData);
-        const cachedDate = localStorage.getItem('vocabulary-last-updated');
-        if (cachedDate) {
-          setLastUpdated(new Date(cachedDate));
-        }
-      } else {
-        parseCSV(fallbackCsvData);
-      }
-    } finally {
-      setIsLoading(false);
-    }
-  };
-
-  // Refresh data manually
-  const refreshData = () => {
-    const sheetId = localStorage.getItem('google-sheet-id');
-    if (sheetId) {
-      fetchFromGoogleSheets(sheetId);
-    }
-  };
-
-  // Load data on component mount
-  useEffect(() => {
-    const sheetId = localStorage.getItem('google-sheet-id');
-    if (sheetId) {
-      fetchFromGoogleSheets(sheetId);
-    } else {
-      // No sheet ID configured, use fallback data
-      parseCSV(fallbackCsvData);
-      setIsLoading(false);
-    }
+    parseCSV(csvData);
   }, []);
 
   const parseCSV = (csvText: string) => {
@@ -262,106 +209,68 @@ Unit 4,brief,noun,"a set of instructions or information",briːf,20.0`;
             <p className="text-xl md:text-2xl text-muted-foreground font-light">
               Vocabulary Practice
             </p>
-            {isLoading && (
-              <div className="flex items-center justify-center mt-4 text-muted-foreground">
-                <Loader2 className="w-4 h-4 animate-spin mr-2" />
-                Loading vocabulary data...
-              </div>
-            )}
-            {error && (
-              <div className="flex items-center justify-center mt-4 text-destructive">
-                <AlertCircle className="w-4 h-4 mr-2" />
-                {error}
-              </div>
-            )}
           </div>
 
-          <div className="w-full max-w-2xl mb-8 animate-fade-in">
-            <GoogleSheetsConfig 
-              onSheetsConfigured={refreshData}
-              lastUpdated={lastUpdated}
-              onRefresh={refreshData}
-              isLoading={isLoading}
-            />
-          </div>
-
-          {isLoading ? (
-            <Card className="glass-card w-full max-w-2xl p-8 md:p-12 animate-scale-in">
-              <div className="space-y-6">
-                <Skeleton className="h-8 w-3/4 mx-auto" />
-                <Skeleton className="h-16 w-full" />
-                <Skeleton className="h-16 w-full" />
-                <div className="flex justify-center gap-4">
-                  {[...Array(3)].map((_, i) => (
-                    <Skeleton key={i} className="h-20 w-32" />
-                  ))}
-                </div>
-              </div>
-            </Card>
-          ) : (
-            <>
-              <div className="flex flex-wrap justify-center gap-4 mb-12 animate-fade-in">
-                {stats.map((stat) => (
-                  <Card key={stat.label} className="glass-card p-4 min-w-[140px] hover:scale-105 transition-all duration-300">
-                    <div className="flex items-center space-x-3">
-                      <stat.icon className={`w-6 h-6 ${stat.color}`} />
-                      <div>
-                        <p className="text-sm text-muted-foreground">{stat.label}</p>
-                        <p className="text-lg font-semibold text-foreground">{stat.value}</p>
-                      </div>
-                    </div>
-                  </Card>
-                ))}
-              </div>
-
-              <Card className="glass-card w-full max-w-2xl p-8 md:p-12 animate-scale-in">
-                <div className="space-y-8">
-                  <div className="space-y-3">
-                    <label className="text-lg font-medium text-foreground/90 block">
-                      Select Learning Unit
-                    </label>
-                    <Select value={selectedUnit} onValueChange={setSelectedUnit}>
-                      <SelectTrigger className="select-premium h-16 text-lg font-medium">
-                        <SelectValue />
-                        <ChevronDown className="w-5 h-5 opacity-50" />
-                      </SelectTrigger>
-                      <SelectContent className="glass-card border-white/20">
-                        {units.map((unit) => (
-                          <SelectItem 
-                            key={unit.id} 
-                            value={unit.id}
-                            className="text-lg py-4 hover:bg-white/10 cursor-pointer transition-colors"
-                          >
-                            <div className="flex justify-between items-center w-full">
-                              <span>{unit.name}</span>
-                              <span className="text-sm text-muted-foreground ml-4">
-                                {unit.cards.length} words
-                              </span>
-                            </div>
-                          </SelectItem>
-                        ))}
-                      </SelectContent>
-                    </Select>
-                  </div>
-
-                  <Button 
-                    className="premium-button w-full h-16 text-xl font-semibold group"
-                    onClick={startFlashcards}
-                    disabled={!selectedUnit}
-                  >
-                    <Play className="w-6 h-6 mr-3 group-hover:scale-110 transition-transform" />
-                    Start Practice Session
-                  </Button>
-
-                  <div className="text-center text-muted-foreground">
-                    <p className="text-sm">
-                      Practice sessions are adaptive and tailored to your learning pace
-                    </p>
+          <div className="flex flex-wrap justify-center gap-4 mb-12 animate-fade-in">
+            {stats.map((stat) => (
+              <Card key={stat.label} className="glass-card p-4 min-w-[140px] hover:scale-105 transition-all duration-300">
+                <div className="flex items-center space-x-3">
+                  <stat.icon className={`w-6 h-6 ${stat.color}`} />
+                  <div>
+                    <p className="text-sm text-muted-foreground">{stat.label}</p>
+                    <p className="text-lg font-semibold text-foreground">{stat.value}</p>
                   </div>
                 </div>
               </Card>
-            </>
-          )}
+            ))}
+          </div>
+
+          <Card className="glass-card w-full max-w-2xl p-8 md:p-12 animate-scale-in">
+            <div className="space-y-8">
+              <div className="space-y-3">
+                <label className="text-lg font-medium text-foreground/90 block">
+                  Select Learning Unit
+                </label>
+                <Select value={selectedUnit} onValueChange={setSelectedUnit}>
+                  <SelectTrigger className="select-premium h-16 text-lg font-medium">
+                    <SelectValue />
+                    <ChevronDown className="w-5 h-5 opacity-50" />
+                  </SelectTrigger>
+                  <SelectContent className="glass-card border-white/20">
+                    {units.map((unit) => (
+                      <SelectItem 
+                        key={unit.id} 
+                        value={unit.id}
+                        className="text-lg py-4 hover:bg-white/10 cursor-pointer transition-colors"
+                      >
+                        <div className="flex justify-between items-center w-full">
+                          <span>{unit.name}</span>
+                          <span className="text-sm text-muted-foreground ml-4">
+                            {unit.cards.length} words
+                          </span>
+                        </div>
+                      </SelectItem>
+                    ))}
+                  </SelectContent>
+                </Select>
+              </div>
+
+              <Button 
+                className="premium-button w-full h-16 text-xl font-semibold group"
+                onClick={startFlashcards}
+                disabled={!selectedUnit}
+              >
+                <Play className="w-6 h-6 mr-3 group-hover:scale-110 transition-transform" />
+                Start Practice Session
+              </Button>
+
+              <div className="text-center text-muted-foreground">
+                <p className="text-sm">
+                  Practice sessions are adaptive and tailored to your learning pace
+                </p>
+              </div>
+            </div>
+          </Card>
         </div>
       </div>
     );
