@@ -68,12 +68,27 @@ Unit 1,tailor-made,adjective,"specially made for a particular person, organizati
 Unit 1,take on,phrasal verb,"to employ someone",teɪk ɒn,11.0
 Unit 1,time management,noun phrase,"the practice of using your time effectively, and the study of this",taɪm ˈmæn.ɪdʒ.mənt,11.0
 Unit 1,training budget,noun phrase,"the amount of money you have available to spend on teaching the skills that you will need to do a particular job or activity",treɪn.ɪŋ ˈbʌdʒ.ɪt,11.0
-Unit 2,downsize,verb,"to reduce the number of people who work in a company, business, etc. in order to reduce costs",ˈdaʊn.saɪz,12.0
-Unit 2,decentralise,verb,"to give some of the power of a central government, organisation, etc. to smaller parts or organisations around the country",ˌdiːˈsen.trəl.aɪz,12.0
-Unit 2,deregulate,verb,"to remove national or local government controls or rules from a business or other activity",ˌdiːˈreɡ.jə.leɪt,12.0
-Unit 2,headquarters,noun,"the main office or centre of control of a company, organisation, etc.",ˌhedˈkwɔː.təz,12.0
-Unit 2,outsource,verb,"to arrange for somebody outside a company to do work or provide goods for that company",ˈaʊt.sɔːs,14.0
-Unit 2,streamline,verb,"to make a system, an organisation, etc. work better, especially in a way that saves money",ˈstriːm.laɪn,12.0
+Unit 2,career coaching,noun phrase,"the process of teaching the skills needed to succeed in a particular job",kəˈrɪə kəʊ.tʃɪŋ,12.0
+Unit 2,cashier,noun,"someone whose job is to take payments from customers or give out money in a store, bank, etc.",kəˈʃɪə,12.0
+Unit 2,challenging,adjective,"difficult, in a way that tests your ability or determination",ˈtʃæl.ɪn.dʒɪŋ,12.0
+Unit 2,discipline,noun,"the practice of making sure that people obey rules and do not cause problems",ˈdɪs.ə.plɪn,12.0
+Unit 2,diversity,noun,"the fact of there being people of many different groups in society, within an organization, etc.",daɪˈvɜː.sə.ti,12.0
+Unit 2,effective promotional campaign,noun phrase,"a well-planned and successful group of activities which are intended to advertise something",ɪˈfek.tɪv prəˈməʊ.ʃən.əl kæmˈpeɪn,12.0
+Unit 2,efficient,adjective,"using resources such as time, materials, or energy well without wasting any",ɪˈfɪʃ.ənt,12.0
+Unit 2,financial paperwork,noun phrase,"the part of a job which involves keeping records of how money is managed",faɪˈnæn.tʃəl ˈpeɪ.pə.wɜːk,12.0
+Unit 2,fire,verb,"to make someone leave their job, especially because they have done something wrong",faɪə,12.0
+Unit 2,fulfilling,adjective,"making you feel happy and satisfied",fʊlˈfɪl.ɪŋ,12.0
+Unit 2,issue,verb,"to give someone something, especially officially",ˈɪʃ.uː,12.0
+Unit 2,large-scale project,noun phrase,"a large piece of planned work or building activity which is finished over a long period of time",lɑːdʒ skeɪl prəʊˈdʒekt,12.0
+Unit 2,performance,noun,"how well someone does their job or their duties",pəˈfɔː.mənts,12.0
+Unit 2,personnel (department),noun,"the department of a company or organization that deals with employees when they join or leave, when they need training, when they have problems, etc.",ˌpɜː.sənˈel,12.0
+Unit 2,personnel (employees),noun,"the people who are employed by a company or organization",ˌpɜː.sənˈel,12.0
+Unit 2,pull the wool over someone's eyes,verb phrase,"to deceive someone in order to prevent them from discovering something",pʊl ðiː wʊl ˈəʊ.və ˈsʌm.wʌnz aɪz,12.0
+Unit 2,role,noun,"the position or purpose that someone or something has in a situation, organization, society or relationship",rəʊl,12.0
+Unit 2,selling point,noun,"a characteristic of a product or service that will persuade people to buy it",sel.ɪŋ pɔɪnt,12.0
+Unit 2,thrive,verb,"to grow, develop, and become successful",θraɪv,12.0
+Unit 2,warehouse,noun,"a large building for storing things before they are sold, used, or sent out to stores",ˈweə.haʊz,12.0
+Unit 2,workwise,adverb,"relating to work",ˈwɜːk.waɪz,12.0
 Unit 3,customs,noun,"the place at a port, airport or border where officials check goods or people coming into a country",ˈkʌs.təmz,18.0
 Unit 3,warehouse,noun,"a building where large quantities of goods are stored, especially before they are sent to shops/stores to be sold",ˈweə.haʊs,18.0
 Unit 3,logistics,noun,"the practical organisation of something",ləˈdʒɪs.tɪks,18.0
