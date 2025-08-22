@@ -40,15 +40,34 @@ const VocabularyPractice = () => {
   useEffect(() => {
     const csvData = `Unit,Word,Comment,Definition,Pronunciation,Page
 Unit 1,bonus,noun,"an amount of money given to an employee in addition to their salary as a reward for working well",ˈbəʊ.nəs,8.0
-Unit 1,committed,adjective,"loyal and willing to give your time and energy to something that you believe in",kəˈmɪt.ɪd ,11.0
-Unit 1,computer literate R,adjective phrase,"able to use computers effectively",kəmˈpjuː.tə ˈlɪt.ər.ət,10.0
+Unit 1,committed,adjective,"loyal and willing to give your time and energy to something that you believe in",kəˈmɪt.ɪd,11.0
+Unit 1,computer literate,adjective phrase,"able to use computers effectively",kəmˈpjuː.tə ˈlɪt.ər.ət,10.0
 Unit 1,consistent,adjective,"always behaving or happening in a similar, especially positive, way",kənˈsɪs.tənt,8.0
-Unit 1,core skill R,noun phrase," a particular ability that you develop through training and experience and that is necessary to do a particular job",kɔː skɪl,10.0
+Unit 1,core skill,noun phrase,"a particular ability that you develop through training and experience and that is necessary to do a particular job",kɔː skɪl,10.0
 Unit 1,corporate culture,noun phrase,"the beliefs and ideas that a company has and the way in which they affect how it does business and how its employees behave",ˈkɔː.pər.ət ˈkʌl.tʃə,10.0
 Unit 1,dedicated,adjective,"used only for one particular purpose or job",ˈded.ɪ.keɪ.tɪd,8.0
 Unit 1,diverse,adjective,"varied or different",daɪˈvɜːs,8.0
 Unit 1,do overtime,verb phrase,"to work after the usual time needed or expected in a job",duː ˈəʊ.və.taɪm,11.0
-Unit 1,dynamic,adjective,"continuously changing or developing",daɪˈnæm.ɪk,8.0
+Unit 1,earn an award,verb phrase,"to be given money or a prize following an official decision",ɜːn ˈən əˈwɔːd,11.0
+Unit 1,goal setting,noun phrase,"the process of deciding what you want to achieve or what you want someone else to achieve over a particular period",ɡəʊl set.ɪŋ,10.0
+Unit 1,hands-on training,noun phrase,"a way of learning in which you do things instead of just reading or learning about them",ˈhænd .zɒn treɪn.ɪŋ,10.0
+Unit 1,headhunter,noun,"a person who is hired by a company to find someone who has the qualifications for an important job and is willing to leave their present job",ˈhedˌhʌn.tə,11.0
+Unit 1,in-house,adjective,"being done by employees within an organization rather than by other companies or independent workers",ˌɪnˈhaʊs,8.0
+Unit 1,intensive,adjective,"involving a lot of effort or activity in a short period of time",ɪnˈtent.sɪv,8.0
+Unit 1,learning goal,noun phrase,"an aim or purpose that you intend to achieve by study",lɜːn.ɪŋ ɡəʊl,10.0
+Unit 1,material incentive,noun phrase,"something, especially money, that encourages a person or organization to do something",məˈtɪə.ri.əl ɪnˈsen.tɪv,11.0
+Unit 1,personal development,noun phrase,"the process of improving your skills and increasing the amount of experience that you have in your job",ˈpɜː.sən.əl dɪˈvel.əp.mənt,11.0
+Unit 1,procedure,noun,"a set of actions which is the usual or official way of doing something",prəʊˈsiː.dʒə,8.0
+Unit 1,professionalism,noun,"the combination of all the qualities that are connected with trained and skilled people",prəˈfeʃ.ən.əl.ɪ.zəm,11.0
+Unit 1,promote from within,verb phrase,"to raise someone who already belongs to an organization to a higher or more important position or rank within that organization",prəˈməʊt frɒm wɪˈðɪn,11.0
+Unit 1,quotation,noun,"a statement of how much a job, service, or product will cost",kwəʊˈteɪ.ʃən,8.0
+Unit 1,recognition,noun,"the act of praising or rewarding someone for something they have done",ˌrek.əɡˈnɪʃ.ən,8.0
+Unit 1,safety regulation,noun phrase,"an official rule that is meant to keep people protected from danger or harm",ˈseɪf.ti ˌreɡ.jəˈleɪ.ʃən,11.0
+Unit 1,supervisor,noun,"a person who is in charge of a group of people or an area of work and who makes sure that the work is done correctly and according to the rules",ˈsuː.pə.vaɪ.zə,8.0
+Unit 1,tailor-made,adjective,"specially made for a particular person, organization, or purpose",ˌteɪ.ləˈmeɪd,8.0
+Unit 1,take on,phrasal verb,"to employ someone",teɪk ɒn,11.0
+Unit 1,time management,noun phrase,"the practice of using your time effectively, and the study of this",taɪm ˈmæn.ɪdʒ.mənt,11.0
+Unit 1,training budget,noun phrase,"the amount of money you have available to spend on teaching the skills that you will need to do a particular job or activity",treɪn.ɪŋ ˈbʌdʒ.ɪt,11.0
 Unit 2,downsize,verb,"to reduce the number of people who work in a company, business, etc. in order to reduce costs",ˈdaʊn.saɪz,12.0
 Unit 2,decentralise,verb,"to give some of the power of a central government, organisation, etc. to smaller parts or organisations around the country",ˌdiːˈsen.trəl.aɪz,12.0
 Unit 2,deregulate,verb,"to remove national or local government controls or rules from a business or other activity",ˌdiːˈreɡ.jə.leɪt,12.0
