@@ -123,28 +123,28 @@ Unit 4,brief,noun,"a set of instructions or information",briːf,20.0
 Unit 4,deadline,noun,"a point in time by which something must be done",ˈded.laɪn,20.0
 Unit 4,involve,verb,"to include or affect someone or something",ɪnˈvɒlv,20.0
 Unit 4,milestone,noun,"a very important stage or event in the development of something",ˈmaɪl.stəʊn,20.0
-Unit 4,account for ,verb phrase, "to form the total of something",əˈkaʊnt fɔː
-Unit 4,attitude ,noun,"a feeling or opinion about something, especially when this shows in your behaviour",ˈæt.ɪ.tʃuːd
-Unit 4,body language,noun phrase,"body movements that show someone's thoughts and feelings",ˈbɒd.i ˈlæŋ.ɡwɪdʒ
-Unit 4,carry out research,verb phrase,"to do or complete a detailed study of a subject, especially in order to discover (new) information ",ˈkær.i aʊt rɪˈsɜːtʃ
-Unit 4,charge ,verb,"to ask for a particular amount of money for something, especially a service or activity",tʃɑːdʒ
-Unit 4,check availability ,verb phrase,"to find out if something is able to be bought, used or reached",tʃek əˌveɪ.ləˈbɪl.ə.ti
-Unit 4,critical,adjective,"extremely important to the progress or success of something",ˈkrɪt.ɪ.kəl
-Unit 4,crucial ,adjective,"extremely important or necessary",ˈkruː.ʃəl
-Unit 4,dress formally,verb phrase,"to wear a serious type of clothes",dres ˈfɔː.məli
-Unit 4,drive ,verb,"to cause or influence something",draɪv
-Unit 4,finalise ,verb,"to make a final and certain decision about a plan, date, etc",ˈfaɪ.nəl.aɪz
-Unit 4,form an impression (of sthg/sb) ,verb phrase,"to get an idea or opinion of what something is like",fɔːm ˈæn ɪmˈpreʃ.ən
-Unit 4,full-time ,adjective,"for all the hours of the week that people normally work, not just for some of them",ˌfʊlˈtaɪm
-Unit 4,get sthg up on the screen ,verb phrase,"to make something able to be seen or read on a computer system" ,ˈɡet.ʌp ɒn ðiː skriːn
-Unit 4,hold on,phrasal verb,"to wait while someone else does something, especially when you are using the phone",həʊld ɒn
-Unit 4,incoming phone call,noun phrase, "when someone uses the phone to call you" ,ˈɪnˌkʌm.ɪŋ fəʊn kɔːl
-Unit 4,instinctive ,adjective,"Instinctive behaviour or reactions are not thought about, planned or developed by training.",ɪnˈstɪŋk.tɪv
-Unit 4,intended recipient,noun phrase,"the person who is meant to receive something" ,ɪnˈten.dɪd rɪˈsɪp.i.ənt
-Unit 4,part-time ,adjective,"for only some of the hours of the week that people normally work, not all of them",ˌpɑːtˈtaɪm
-Unit 4,progress report,noun phrase,"a description of an event or situation  that explains how much progress is being made" ,prəʊˈɡres rɪˈpɔːt
-Unit 4,rate ,noun,"an amount of money that is charged or paid for a particular service",reɪt
-Unit 4,reinforce,verb,"to make an idea or belief stronger",ˌriː.ɪnˈfɔːs
+Unit 4,account for ,verb phrase, "to form the total of something",əˈkaʊnt fɔː,20.0
+Unit 4,attitude ,noun,"a feeling or opinion about something, especially when this shows in your behaviour",ˈæt.ɪ.tʃuːd,20.0
+Unit 4,body language,noun phrase,"body movements that show someone's thoughts and feelings",ˈbɒd.i ˈlæŋ.ɡwɪdʒ,20.0
+Unit 4,carry out research,verb phrase,"to do or complete a detailed study of a subject, especially in order to discover (new) information ",ˈkær.i aʊt rɪˈsɜːtʃ,20.0
+Unit 4,charge ,verb,"to ask for a particular amount of money for something, especially a service or activity",tʃɑːdʒ,20.0
+Unit 4,check availability ,verb phrase,"to find out if something is able to be bought, used or reached",tʃek əˌveɪ.ləˈbɪl.ə.ti,20.0
+Unit 4,critical,adjective,"extremely important to the progress or success of something",ˈkrɪt.ɪ.kəl,20.0
+Unit 4,crucial ,adjective,"extremely important or necessary",ˈkruː.ʃəl,20.0
+Unit 4,dress formally,verb phrase,"to wear a serious type of clothes",dres ˈfɔː.məli,20.0
+Unit 4,drive ,verb,"to cause or influence something",draɪv,20.0
+Unit 4,finalise ,verb,"to make a final and certain decision about a plan, date, etc",ˈfaɪ.nəl.aɪz,20.0
+Unit 4,form an impression (of sthg/sb) ,verb phrase,"to get an idea or opinion of what something is like",fɔːm ˈæn ɪmˈpreʃ.ən,20.0
+Unit 4,full-time ,adjective,"for all the hours of the week that people normally work, not just for some of them",ˌfʊlˈtaɪm,20.0
+Unit 4,get sthg up on the screen ,verb phrase,"to make something able to be seen or read on a computer system" ,ˈɡet.ʌp ɒn ðiː skriːn,20.0
+Unit 4,hold on,phrasal verb,"to wait while someone else does something, especially when you are using the phone",həʊld ɒn,20.0
+Unit 4,incoming phone call,noun phrase, "when someone uses the phone to call you" ,ˈɪnˌkʌm.ɪŋ fəʊn kɔːl,20.0
+Unit 4,instinctive ,adjective,"Instinctive behaviour or reactions are not thought about, planned or developed by training.",ɪnˈstɪŋk.tɪv,20.0
+Unit 4,intended recipient,noun phrase,"the person who is meant to receive something" ,ɪnˈten.dɪd rɪˈsɪp.i.ənt,20.0
+Unit 4,part-time ,adjective,"for only some of the hours of the week that people normally work, not all of them",ˌpɑːtˈtaɪm,20.0
+Unit 4,progress report,noun phrase,"a description of an event or situation  that explains how much progress is being made" ,prəʊˈɡres rɪˈpɔːt,20.0
+Unit 4,rate ,noun,"an amount of money that is charged or paid for a particular service",reɪt,20.0
+Unit 4,reinforce,verb,"to make an idea or belief stronger",ˌriː.ɪnˈfɔːs,20.0
 Unit 5,affordable pricing,noun phrase, "when a company offers goods that are not expensive",əˈfɔː.də.bəl ˈpraɪs.ɪŋ
 Unit 5,app developer,noun phrase, "someone whose job is to create computer programs designed for particular purposes",æp dɪˈvel.ə.pə
 Unit 5,appeal to,verb phrase,"to interest or attract someone",əˈpiːl tuː
@@ -523,7 +523,7 @@ Unit 24,straightforward ,adjective,"easy to understand or simple",ˌstreɪtˈfɔ
 Unit 24,take lightly,verb phrase,"to treat in a way that is not serious",teɪk laɪt.li
 Unit 24,take up employment ,verb phrase,"to start doing a new job",teɪk ʌp ɪmˈplɔɪ.mənt
 Unit 24,transferable skill ,noun phrase,"a particular ability used in one job or career that can also be used in another",træntˈsfɜː.rə.bəl skɪl
-Unit 24,withstand the rigours,verb phrase,"to deal with unpleasant or severe conditions successfully",wɪðˈstænd ðiː ˈrɪg.əs
+Unit 24,withstand the rigours,verb phrase,"to deal with unpleasant or severe conditions successfully",wɪðˈstænd ðiː ˈrɪg.əs`;
 
     parseCSV(csvData);
   }, []);
