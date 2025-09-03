@@ -156,7 +156,7 @@ Unit 5,customer loyalty ,noun phrase,"the fact of a customer buying products or 
 Unit 5,emerging market,noun phrase,"a part of the world which is beginning to have economic power or success and where something might be sold" ,ɪˈmɜː.dʒɪŋ ˈmɑː.kɪt
 Unit 5,overheads ,plural noun,"the regular and necessary costs, such as rent and heating, that are involved in operating a business",ˈəʊ.və.hedz
 Unit 5,pay a premium ,verb phrase,"to give a larger amount of money  than usual for something" ,peɪ eɪ ˈpriː.mi.əm
-Unit 5,premium price segment,noun phrase,""a part into which the economy or a company's business can be divided which involves charging or paying high prices for something" ,ˈpriː.mi.əm praɪs seɡˈment
+Unit 5,premium price segment,noun phrase,"a part into which the economy or a company's business can be divided which involves charging or paying high prices for something" ,ˈpriː.mi.əm praɪs seɡˈment
 Unit 5,price ladder,noun phrase,"a way of referring to a series of several different prices to choose from, depending on the quality of the product",praɪs ˈlæd.ə
 Unit 5,print ad,noun phrase,"an advertisement that appears in a newspaper or magazine, rather than on television, radio, or the Internet",prɪnt æd
 Unit 5,property consultant,noun phrase,"someone who is paid to give expert advice or training on buildings and land, considered as things to be bought and sold",ˈprɒp.ə.ti kənˈsʌl.tənt
@@ -187,8 +187,8 @@ Unit 6,turning point ,noun phrase,"a time when a situation starts to change in a
 Unit 6,upmarket,adjective,"used to describe products and services that are of a high quality compared to others",ˌʌpˈmɑː.kɪt
 Unit 7,commercial edge,noun phrase,"an advantage over the people or businesses who are competing with you",kəˈmɜː.ʃəl edʒ
 Unit 7,control costs,noun phrase,"to limit the amount of money that has to be spent in order to buy, do, or make something",kənˈtrəʊl kɒsts
-Unit 7,custom-built,adjective,If something is custom-built it is specially made for a particular buyer ,ˈkʌs.təm.bɪlt
-Unit 7,customised solution,noun phrase,used to describe something that has been made to solve a customer's particular needs  ,ˈkʌs.tə.maɪzd səˈluː.ʃən
+Unit 7,custom-built,adjective,"If something is custom-built it is specially made for a particular buyer" ,ˈkʌs.təm.bɪlt
+Unit 7,customised solution,noun phrase,"used to describe something that has been made to solve a customer's particular needs"  ,ˈkʌs.tə.maɪzd səˈluː.ʃən
 Unit 7,enhance,verb,"to improve the quality, amount, or value of something",ɪnˈhɑːnts
 Unit 7,exhibit,verb,"to show something publicly in a place such as a museum or trade show",ɪɡˈzɪb.ɪt
 Unit 7,fee ,noun,"an amount of money paid for a particular piece of work or for a particular right or service",fiː
@@ -239,7 +239,7 @@ Unit 9,credit facilities,noun phrase,"arrangements for paying for goods or servi
 Unit 9,economic trend,noun phrase,"a general development relating to trade, industry, and money",ˌiː.kəˈnɒm.ɪk trend
 Unit 9,entrepreneur ,noun,"someone who makes money by starting their own business, especially when this involves seeing a new opportunity and taking risks",ˌɒn.trə.prəˈnɜː
 Unit 9,exploit a gap in the market,verb phrase,"to use the opportunity to sell a product or service because a need or demand for it exists but no one is supplying it",ɪkˈsplɔɪt eɪ ɡæp ɪn ðiː ˈmɑː.kɪt
-Unit 9,from strength to strength ,adverb phrase,gradually becoming more successful,frɒm streŋkθ tuː streŋkθ
+Unit 9,from strength to strength ,adverb phrase,"gradually becoming more successful",frɒm streŋkθ tuː streŋkθ
 Unit 9,international presence,noun phrase,"when someone or something is known in more than one country",ˌɪn.təˈnæʃ.ən.əl ˈprez.ənts
 Unit 9,lay out guidelines,verb phrase,"to give information intended to advise people on how something should be done in a clear and detailed way"   ,leɪ aʊt ˈɡaɪd.laɪnz
 Unit 9,lose one's head,verb phrase,"to lose control and not act in a calm way",luːz ðeə hedz
@@ -302,7 +302,7 @@ Unit 11,infrastructure,noun,"the basic systems and services that are needed in o
 Unit 11,interested party,noun phrase,"any people or organisations who may be affected by a situation, or who are hoping to make money out of a situation",ˈɪn.trəst.ɪd ˈpɑː.ti
 Unit 11,lease,noun,"an agreement to pay money in order to use land, a building, a vehicle, or a piece of equipment for a particular period of time",liːs
 Unit 11,on a world scale,adverb phrase,"used to measure or compare the level of something around the world",ɒn eɪ wɜːld skeɪl
-Unit 11,purpose-built facility,noun phrase,a building or area that is designed and built for a particular use,ˈpɜː.pəs.bɪlt fəˈsɪl.ə.ti
+Unit 11,purpose-built facility,noun phrase,"a building or area that is designed and built for a particular use",ˈpɜː.pəs.bɪlt fəˈsɪl.ə.ti
 Unit 11,R & D facility,noun phrase,"a building or area for research and development (= the part of an organisation that works to improve its products and develop new ones, or the activity of doing this)",ˈɑː.ənd.ˌdiː fəˈsɪl.ə.ti
 Unit 11,rank highest,verb phrase,"to have a position that is higher than others, or to be considered to have such a position",ræŋk haɪ.əst
 Unit 11,run a growing operation ,verb phrase,"to be in control of or manage a business organisation that is getting bigger",rʌn eɪ ɡrəʊɪŋ ˌɒp.ərˈeɪ.ʃən
@@ -318,7 +318,7 @@ Unit 12,demand ,noun ,"a need for goods or services that customers want to buy/u
 Unit 12,dry up,phrasal verb,"to stop being able to talk in the normal way",draɪ ʌp
 Unit 12,feel free,verb phrase,"If someone tells you to feel free to do something, they mean that you can do it if you want to.",fiːl friː
 Unit 12,finding ,noun ,"information or a fact that is discovered by studying something",faɪndɪŋ
-Unit 12,handout,noun,a document containing information that is given to people at a meeting or other event,ˈhænd.aʊt
+Unit 12,handout,noun,"a document containing information that is given to people at a meeting or other event",ˈhænd.aʊt
 Unit 12,mannerism,noun,"something that a person does repeatedly with their face, hands or voice, and which they may not realise they are doing",ˈmæn.ər.ɪ.zəm
 Unit 12,outline a requirement ,verb phrase,"to give the main facts about something that you need",ˈaʊt.laɪn rɪˈkwaɪə.mənt
 Unit 12,potential return ,noun phrase,"the amount of profit made by an investment or a business activity that is able to grow in the future",pəʊˈten.tʃəl rɪˈtɜːn
@@ -354,7 +354,7 @@ Unit 14,industry peer,noun phrase,"a person who has a similar job to other peopl
 Unit 14,let an opportunity slip ,verb phrase,"to not use the possibility of doing something that you want to do or have to do ",let ˈæn ˌɒp.əˈtʃuː.nə.ti slɪp
 Unit 14,old hand ,noun phrase,"someone who is very experienced and skilled in a particular area of activity",əʊld hænd
 Unit 14,on request ,adverb phrase,"If something is available on request, you have to ask for it if you want it.",ɒn rɪˈkwest
-Unit 14,pen drive ,noun phrase,"a  flash drive (= a small object for storing electronic data that can be connected to a computer and that can be carried about easily)",pen draɪv
+Unit 14,pen drive ,noun phrase,"a flash drive (= a small object for storing electronic data that can be connected to a computer and that can be carried about easily)",pen draɪv
 Unit 14,stroke of luck,noun phrase,"when something good happens suddenly by chance",strəʊk əv lʌk
 Unit 14,up-and-coming ,adjective,"likely to achieve success soon or in the near future",ˌʌp.ə ndˈkʌm.ɪŋ
 Unit 14,within close proximity to ,adverb phrase,"the state of being very near in space or time",wɪˈðɪn kləʊs prɒkˈsɪm.ə.ti tuː
@@ -408,122 +408,122 @@ Unit 18,production process,noun phrase,"a method of producing goods",prəˈdʌk.
 Unit 18,recycle,verb,"to collect and treat rubbish in order to produce useful materials which can be used again",ˌriːˈsaɪ.kəl
 Unit 18,rent ,noun,"the amount of money that you pay to rent something for a period of time",rent
 Unit 18,research lab ,noun,"a room or building with scientific equipment where detailed study of a subject is done",rɪˈsɜːtʃ læb
-Unit 18,resign,verb,to say that you have decided to leave your job,rɪˈzaɪn
+Unit 18,resign,verb,"to say that you have decided to leave your job",rɪˈzaɪn
 Unit 18,resource,noun,"a useful or valuable possession or quality of a country, organisation or person",rɪˈzɔːs
-Unit 18,seek planning permission ,verb phrase,to try to get an official agreement that something new can be built or an existing building can be changed,siːk plæn.ɪŋ pəˈmɪʃ.ən
-Unit 18,service charge ,noun,an amount of money paid to the owner of an apartment or office building for services such as cleaning and repairs,ˈsɜː.vɪs tʃɑːdʒ
-Unit 18,socially responsible,adjective phrase,working or operating in ways that are not harmful to society or the environment,ˈsəʊ.ʃəli rɪˈspɒnt.sə.bəl
+Unit 18,seek planning permission ,verb phrase,"to try to get an official agreement that something new can be built or an existing building can be changed",siːk plæn.ɪŋ pəˈmɪʃ.ən
+Unit 18,service charge ,noun,"an amount of money paid to the owner of an apartment or office building for services such as cleaning and repairs",ˈsɜː.vɪs tʃɑːdʒ
+Unit 18,socially responsible,adjective phrase,"working or operating in ways that are not harmful to society or the environment",ˈsəʊ.ʃəli rɪˈspɒnt.sə.bəl
 Unit 18,the paperless office,noun phrase,"a room or part of a building in which people work where information is kept on computers, not on paper",ðiː ˈpeɪ.pə.ləs ˈɒf.ɪs
 Unit 18,waste,noun,"materials or substances with no use or value, for example, ones that are produced when other products are being made",weɪst
-Unit 18,waste power,verb phrase,to use too much electricity or use it badly ,weɪst ˈpaʊ.ə
-Unit 18,work remotely ,verb phrase,employees who work remotely work mainly from home and communicate with the company by email and telephone,wɜːk rɪˈməʊtli
+Unit 18,waste power,verb phrase,"to use too much electricity or use it badly" ,weɪst ˈpaʊ.ə
+Unit 18,work remotely ,verb phrase,"employees who work remotely work mainly from home and communicate with the company by email and telephone",wɜːk rɪˈməʊtli
 Unit 19,absenteeism,noun ,"the fact of staying away from work, especially without a good reason",ˌæb.sənˈtiːɪ.zəm
 Unit 19,at peak times ,adverb phrase,"at a time of day when a lot of people are using the same service, such as the Internet, phone, etc",ət piːk taɪmz
-Unit 19,balance sheet ,noun ,a financial statement that shows a company's assets and debts at a particular time,ˈbæl.ənts ʃiːt
+Unit 19,balance sheet ,noun ,"a financial statement that shows a company's assets and debts at a particular time",ˈbæl.ənts ʃiːt
 Unit 19,bandwidth ,noun ,"the amount of information that can be sent between computers, over a phone line, using radio signals, etc. in a particular amount of time",ˈbænd.wɪtθ
-Unit 19,board meeting ,noun ,an occasion when a group of people who are responsible for making rules and decisions on behalf of an organisation meet in order to discuss something,bɔːd ˈmiː.t̬ɪŋ
+Unit 19,board meeting ,noun ,"an occasion when a group of people who are responsible for making rules and decisions on behalf of an organisation meet in order to discuss something",bɔːd ˈmiː.t̬ɪŋ
 Unit 19,cashflow ,noun ,"the movement of money into and out of a company's accounts, used as a measure of how much money the company spends and receives and how much profit it makes over a particular period of time",ˈkæʃ.fləʊ
-Unit 19,channel ideas ,verb phrase,to use suggestions or plans for doing something in a particular way,ˈtʃæn.əl aɪˈdɪəz
-Unit 19,come in someone's emit ,verb phrase,to be responsible for a particular area of work,kʌm ɪn jɔː ɪˈmɪt
-Unit 19,cut down on ,verb phrase,to reduce the amount or number of something,kʌt daʊn ɒn
-Unit 19,extra workload ,noun phrase,a more-than-usual amount of work that a person or machine has to do within a particular period of time,ˈek.strə ˈwɜːk.ləʊd
-Unit 19,implement change ,verb phrase,to put the process of making something different into action,ˈɪm.plɪ.ment tʃeɪndʒ
-Unit 19,keep up with orders ,verb phrase,to stay level with requests from customers for goods or services,kiːp ʌp wɪð ˈɔː.dəz
-Unit 19,on schedule,adverb phrase,not early or late,ɒn ˈʃedʒ.uːl
-Unit 19,on the shop floor ,adverb phrase,among the ordinary workers at a factory,ɒn ðiː ʃɒp flɔː
+Unit 19,channel ideas ,verb phrase,"to use suggestions or plans for doing something in a particular way",ˈtʃæn.əl aɪˈdɪəz
+Unit 19,come in someone's emit ,verb phrase,"to be responsible for a particular area of work",kʌm ɪn jɔː ɪˈmɪt
+Unit 19,cut down on ,verb phrase,"to reduce the amount or number of something",kʌt daʊn ɒn
+Unit 19,extra workload ,noun phrase,"a more-than-usual amount of work that a person or machine has to do within a particular period of time",ˈek.strə ˈwɜːk.ləʊd
+Unit 19,implement change ,verb phrase,"to put the process of making something different into action",ˈɪm.plɪ.ment tʃeɪndʒ
+Unit 19,keep up with orders ,verb phrase,"to stay level with requests from customers for goods or services",kiːp ʌp wɪð ˈɔː.dəz
+Unit 19,on schedule,adverb phrase,"not early or late",ɒn ˈʃedʒ.uːl
+Unit 19,on the shop floor ,adverb phrase,"among the ordinary workers at a factory",ɒn ðiː ʃɒp flɔː
 Unit 19,output ,noun,"the amount of goods and services, or waste products, that are produced by a particular economy, industry, company, or worker",ˈaʊt.pʊt
-Unit 19,powers that be ,noun phrase,important people who have authority over others,pɑːs ɒn
-Unit 19,profit and loss ,noun phrase,money that is earned or lost in trade or business,ˈprɒf.ɪt ænd lɒs
+Unit 19,powers that be ,noun phrase,"important people who have authority over others",pɑːs ɒn
+Unit 19,profit and loss ,noun phrase,"money that is earned or lost in trade or business",ˈprɒf.ɪt ænd lɒs
 Unit 19,rush hour ,noun phrase ,"one of the very busy times of the day on roads, trains, etc., in the morning when people are travelling to work and in the evening when people are going home",ðiː rʌʃ aʊə
-Unit 19,service provider ,noun,a company that provides internet connections and services,ˈsɜː.vɪs prəʊˈvaɪ.də
-Unit 19,sick leave ,noun,a period of time that a worker is allowed to be away from work because they are ill,sɪk liːv
+Unit 19,service provider ,noun,"a company that provides internet connections and services",ˈsɜː.vɪs prəʊˈvaɪ.də
+Unit 19,sick leave ,noun,"a period of time that a worker is allowed to be away from work because they are ill",sɪk liːv
 Unit 19,staff turnover,noun phrase,the rate at which employees leave a company and are replaced by new employees,stɑːf ˈtɜːnˌəʊ.və
-Unit 19,tie sthg in with ,phrasal verb,to plan something so that it happens as part of another activity,ˈtaɪ.ɪn
-Unit 19,track orders in real time ,verb phrase,to follow the movement or progress of requests from customers in the very short amount of time needed for computer systems to receive data and information and then communicate it or make it available ,træk ˈɔː.dəz ɪn rɪəl taɪm
-Unit 19,working conditions ,plural noun,the physical situation that someone works in or is affected by,wɜːk.ɪŋ kənˈdɪʃ.ənz
-Unit 20,after-sales service,noun phrase,the business activity that involves doing things for customers provided after they have paid for and received a product or service,ˈɑːf.tə seɪlz ˈsɜː.vɪs
+Unit 19,tie sthg in with ,phrasal verb,"to plan something so that it happens as part of another activity",ˈtaɪ.ɪn
+Unit 19,track orders in real time ,verb phrase,"to follow the movement or progress of requests from customers in the very short amount of time needed for computer systems to receive data and information and then communicate it or make it available" ,træk ˈɔː.dəz ɪn rɪəl taɪm
+Unit 19,working conditions ,plural noun,"the physical situation that someone works in or is affected by",wɜːk.ɪŋ kənˈdɪʃ.ənz
+Unit 20,after-sales service,noun phrase,"the business activity that involves doing things for customers provided after they have paid for and received a product or service",ˈɑːf.tə seɪlz ˈsɜː.vɪs
 Unit 20,base salary,noun phrase,"basic salary: the amount of money that someone earns every year in their job, not including any extra payments they may receive",beɪs ˈsæl.ər.i
 Unit 20,benefits,plural noun,"advantages such as medical insurance, life insurance and sick pay, that employees receive from their employer in addition to money",ˈben.ɪ.fɪt
-Unit 20,bookkeeping,noun,the activity of keeping records of all the money a company spends and receives,ˈbʊkˌkiː.pɪŋ
-Unit 20,cashflow projection,noun phrase,a calculation or guess about the future movement of money into and out of a company's accounts based on information that you have ,ˈkæʃ.fləʊ prəʊˈdʒek.ʃən
+Unit 20,bookkeeping,noun,"the activity of keeping records of all the money a company spends and receives",ˈbʊkˌkiː.pɪŋ
+Unit 20,cashflow projection,noun phrase,"a calculation or guess about the future movement of money into and out of a company's accounts based on information that you have" ,ˈkæʃ.fləʊ prəʊˈdʒek.ʃən
 Unit 20,cloud-based approach ,noun phrase,"the use of technology, services, software, etc. on the Internet rather than software and hardware that you buy and install on your computer",klaʊd beɪst əˈprəʊtʃ
 Unit 20,coding of systems ,noun phrase,"to represent information in a way that is not ordinary language, as with special signs or symbols, to make it easier to trade them between countries",kəʊd.ɪŋ ɒv ˈsɪs.təmz
 Unit 20,competitive advantage ,noun phrase,"the conditions that make a business more successful than the businesses it is competing with, or a particular thing that makes it more successful",kəmˈpet.ɪ.tɪv ədˈvɑːn.tɪdʒ
-Unit 20,data centre ,noun phrase,a place where a number of computers that contain large amounts of information can be kept safely,ˈdeɪ.tə sɜːv.ə
-Unit 20,dissatisfied customer,noun phrase, a person who buys a product or service and feels that it is not as good as it should be,dɪsˈsæt.ɪsfaɪd ˈkʌs.tə.mə
-Unit 20,emergency hotline,noun phrase,a special direct telephone line that people can use for dangerous or serious situations,ɪˈmɜː.dʒənt.si ˈhɒt.laɪn
+Unit 20,data centre ,noun phrase,"a place where a number of computers that contain large amounts of information can be kept safely",ˈdeɪ.tə sɜːv.ə
+Unit 20,dissatisfied customer,noun phrase, "a person who buys a product or service and feels that it is not as good as it should be",dɪsˈsæt.ɪsfaɪd ˈkʌs.tə.mə
+Unit 20,emergency hotline,noun phrase,"a special direct telephone line that people can use for dangerous or serious situations",ɪˈmɜː.dʒənt.si ˈhɒt.laɪn
 Unit 20,file sharing,noun phrase,"the practice of distributing computer files, for example, images, films, or music, among several computers",faɪl ʃeər.ɪŋ
 Unit 20,geeky ,adjective,"used to describe someone who knows a lot about science or technology, especially computers",ˈɡiː.ki
 Unit 20,graphic design,noun phrase,"the skill or the work of arranging text and pictures, especially in the production of books, magazines, software, etc.",ˈɡræf.ɪk dɪˈzaɪn
-Unit 20,log on ,phrasal verb,to connect to a computer system by putting in a particular set of letters or numbers,lɒɡ ɒn
-Unit 20,monthly retainer,noun phrase,an amount of money that you pay to someone in order to be sure that they can work for you when you need them to,mʌntθli rɪˈteɪnə
-Unit 20,net new clients,verb phrase,to be successful in getting new customers to buy goods or services from your business,net njuː ˈklaɪ.ənts
+Unit 20,log on ,phrasal verb,"to connect to a computer system by putting in a particular set of letters or numbers",lɒɡ ɒn
+Unit 20,monthly retainer,noun phrase,"an amount of money that you pay to someone in order to be sure that they can work for you when you need them to",mʌntθli rɪˈteɪnə
+Unit 20,net new clients,verb phrase,"to be successful in getting new customers to buy goods or services from your business",net njuː ˈklaɪ.ənts
 Unit 20,payroll tax,noun phrase,"any tax that is based on employees' pay, and is either paid by an employer or partly taken by an employer from what employees earn",ˈpeɪ.rəʊl tæks
-Unit 20,people person ,noun phrase,someone who is good at dealing with other people,ˈpiː.pəl ˈpɜː.sən
+Unit 20,people person ,noun phrase,"someone who is good at dealing with other people",ˈpiː.pəl ˈpɜː.sən
 Unit 20,perception ,noun ,"the way that someone thinks and feels about a company, product, service, etc.",pəˈsep.ʃən
-Unit 20,realise cost savings,verb phrase,to make money or a profit from spending less money than was planned,ˈrɪə.laɪz kɒst seɪv.ɪŋz
+Unit 20,realise cost savings,verb phrase,"to make money or a profit from spending less money than was planned",ˈrɪə.laɪz kɒst seɪv.ɪŋz
 Unit 20,redundant site,noun phrase,"a place on the Internet which is no longer needed where a person, company, or organisation can give information about their products or services ",rɪˈdʌn.dənt saɪt
-Unit 20,server,noun ,a central computer that controls and provides information to other computers in a network,sɜːvə
+Unit 20,server,noun ,"a central computer that controls and provides information to other computers in a network",sɜːvə
 Unit 20,storage,noun ,"the act of keeping things somewhere so that they can be used later, especially goods or energy supplies",ˈstɔː.rɪdʒ
 Unit 20,time zone,noun phrase,"one of the 24 parts into which the world is divided. The time in each zone is one hour earlier than in the zone east of it, and one hour later than in the zone west of it",taɪm zəʊn
-Unit 20,virus infection,noun phrase,a harmful computer program intended to prevent computers from working normally,ˈvaɪə.rəs ɪnˈfek.ʃən
-Unit 20,website hosting,noun phrase,providing the computer equipment and software necessary for a website to be available on the Internet,ˈweb.saɪt həʊst.ɪŋ
-Unit 21,bring in ,phrasal verb,to introduce something new such as a product,brɪŋ ɪn
-Unit 21,car dealership,noun phrase,a company that has permission to sell particular cars,kɑː ˈdiː.lə.ʃɪp
-Unit 21,deal with ,phrasal verb,to take action in order to achieve something or in order to solve a problem,diːl wɪð
+Unit 20,virus infection,noun phrase,"a harmful computer program intended to prevent computers from working normally",ˈvaɪə.rəs ɪnˈfek.ʃən
+Unit 20,website hosting,noun phrase,"providing the computer equipment and software necessary for a website to be available on the Internet",ˈweb.saɪt həʊst.ɪŋ
+Unit 21,bring in ,phrasal verb,"to introduce something new such as a product",brɪŋ ɪn
+Unit 21,car dealership,noun phrase,"a company that has permission to sell particular cars",kɑː ˈdiː.lə.ʃɪp
+Unit 21,deal with ,phrasal verb,"to take action in order to achieve something or in order to solve a problem",diːl wɪð
 Unit 21,employee attitude,noun phrase,"the feelings that someone who is paid to work for someone else has, and the way this makes them behave",ɪmˈplɔɪ.iː ˈæt.ɪ.tʃuːd
-Unit 21,integrity,noun ,the quality of being honest and having strong moral principles that you refuse to change,ɪnˈteɡ.rə.ti
-Unit 21,provider of choice,noun phrase, the most popular company or organisation that sells a particular type of product or service,prəʊˈvaɪd.ə ɒv tʃɔɪs
-Unit 21,repeat customer,noun phrase,someone who buys again from a company that they have used before,rɪˈpiːt ˈkʌs.tə.mə
-Unit 21,responsiveness,noun,used for talking about how quickly and well a person or organisation reacts to something,rɪˈspɒnt.sɪv.nɪs
+Unit 21,integrity,noun ,"the quality of being honest and having strong moral principles that you refuse to change",ɪnˈteɡ.rə.ti
+Unit 21,provider of choice,noun phrase, "the most popular company or organisation that sells a particular type of product or service",prəʊˈvaɪd.ə ɒv tʃɔɪs
+Unit 21,repeat customer,noun phrase,"someone who buys again from a company that they have used before",rɪˈpiːt ˈkʌs.tə.mə
+Unit 21,responsiveness,noun,"used for talking about how quickly and well a person or organisation reacts to something",rɪˈspɒnt.sɪv.nɪs
 Unit 21,teamwork,noun,"the activity of working together as a team, or the skills needed to do this",ˈtiːm.wɜːk
 Unit 21,voucher ,noun,"a printed piece of paper used to pay for particular goods or services, or to pay less than the usual price",ˈvaʊ.tʃə
-Unit 22,build long-term relationships R,verb phrase,to create and develop ways of connecting with people over a long period of time,bɪld lɒŋ tɜːm rɪˈleɪ.ʃən.ʃɪps
+Unit 22,build long-term relationships ,verb phrase,"to create and develop ways of connecting with people over a long period of time",bɪld lɒŋ tɜːm rɪˈleɪ.ʃən.ʃɪps
 Unit 22,call-centre operative,noun phrase,"a person who works in a large office in which a company's employees provide information to its customers, or sell or advertise its goods or services by telephone",kɔːl ˈsen.tə ˈɒp.ər.ə.tɪv
 Unit 22,clear up ,phrasal verb,"to give or find an explanation for something, or to deal with a problem or argument",klɪə ʌp
-Unit 22,exceed expectation,verb phrase,to be even better than you were expecting,ɪkˈsiːd ˌek.spekˈteɪ.ʃən
-Unit 22,extend your customer base,verb phrase,to increase the size or range of the group of people who buy or use a company's products or services,ɪkˈstend jɔː ˈkʌs.tə.mə beɪs
-Unit 22,handle an awkward customer,verb phrase,to deal with a difficult person who is buying your product or service successfully,ˈhæn.dəl ˈæn ˈɔː.kwəd ˈkʌs.tə.mə
-Unit 22,helpline,noun,a telephone service provided by an organisation or company to offer help and advice to people,ˈhelp.laɪn
-Unit 22,lack of people skills,noun phrase,not enough ability to deal with people in a friendly and effective way that achieves good results,læk ɒv ˈpiː.pəl skɪlz
-Unit 22,point of purchase,noun phrase,a place such as a store where a product is bought,pɔɪnt ɒv ˈpɜː.tʃəs
+Unit 22,exceed expectation,verb phrase,"to be even better than you were expecting",ɪkˈsiːd ˌek.spekˈteɪ.ʃən
+Unit 22,extend your customer base,verb phrase,"to increase the size or range of the group of people who buy or use a company's products or services",ɪkˈstend jɔː ˈkʌs.tə.mə beɪs
+Unit 22,handle an awkward customer,verb phrase,"to deal with a difficult person who is buying your product or service successfully",ˈhæn.dəl ˈæn ˈɔː.kwəd ˈkʌs.tə.mə
+Unit 22,helpline,noun,"a telephone service provided by an organisation or company to offer help and advice to people",ˈhelp.laɪn
+Unit 22,lack of people skills,noun phrase,"not enough ability to deal with people in a friendly and effective way that achieves good results",læk ɒv ˈpiː.pəl skɪlz
+Unit 22,point of purchase,noun phrase,"a place such as a store where a product is bought",pɔɪnt ɒv ˈpɜː.tʃəs
 Unit 22,project professionalism,verb phrase,"to have the combination of all the qualities that are connected with trained and skilled people, in a way that people notice ",prəʊˈdʒekt prəˈfeʃ.ən.əl.ɪ.zəm
-Unit 22,rapport,noun ,a good understanding of someone and an ability to communicate well with them,ræpˈɔː
-Unit 22,retain a customer,verb phrase,to keep or continue to have a person or an organisation that buys a product or service,rɪˈteɪn eɪ ˈkʌs.tə.mə
+Unit 22,rapport,noun ,"a good understanding of someone and an ability to communicate well with them",ræpˈɔː
+Unit 22,retain a customer,verb phrase,"to keep or continue to have a person or an organisation that buys a product or service",rɪˈteɪn eɪ ˈkʌs.tə.mə
 Unit 22,reward,verb,"to give someone money or other advantages in exchange for good behaviour or good work, etc",rɪˈwɔːd
 Unit 22,valuable feedback,noun phrase,"useful information about something such as a new product or someone's work, that provides an idea of whether people like it or whether it is good",ˈvæl.jʊ.bəl ˈfiːd.bæk
-Unit 22,written brief ,noun,instructions  on a piece of paper that explain what someone's work or task is ,ˈrɪt.ən briːf
-Unit 23,have a lot on one’s plate ,verb phrase,to have a large amount of important work to deal with,hæv eɪ lɒt ɒn wʌn pleɪt
-Unit 23,line manager,noun,someone directly in charge of workers,laɪn ˈmæn.ɪ.dʒə
-Unit 23,work long hours,verb phrase,to do a job for a large amount of time,wɜːk lɒŋ aʊəz
-Unit 24,aptitude testing,noun phrase,a test to find out whether someone has a natural ability for a particular type of work,ˈæp.tɪ.tʃuːd test.ɪŋ
+Unit 22,written brief ,noun,"instructions  on a piece of paper that explain what someone's work or task is" ,ˈrɪt.ən briːf
+Unit 23,have a lot on one’s plate ,verb phrase,"to have a large amount of important work to deal with",hæv eɪ lɒt ɒn wʌn pleɪt
+Unit 23,line manager,noun,"someone directly in charge of workers",laɪn ˈmæn.ɪ.dʒə
+Unit 23,work long hours,verb phrase,"to do a job for a large amount of time",wɜːk lɒŋ aʊəz
+Unit 24,aptitude testing,noun phrase,"a test to find out whether someone has a natural ability for a particular type of work",ˈæp.tɪ.tʃuːd test.ɪŋ
 Unit 24,autocratic ,adjective,"controlled by one leader who has total power, and who does not allow anyone else to make decisions",ˌɔː.təˈkræt.ɪk
 Unit 24,best predictor,noun phrase,"the best way of saying what will happen in the future, based on knowledge or experience",best prɪˈdɪk.tə
-Unit 24,career progression ,noun phrase,the process of making progress to better jobs,kəˈrɪə prəʊˈɡreʃ.ən
-Unit 24,corporate client ,noun phrase,a large business that receives professional services from an organisation,ˈkɔː.pər.ət ˈklaɪ.ənt
-Unit 24,culture-bound construct,noun phrase,an idea based on the way of life or customs and beliefs of a particular group of people at a particular time,ˈkʌl.tʃə baʊnd kənˈstrʌkt
+Unit 24,career progression ,noun phrase,"the process of making progress to better jobs",kəˈrɪə prəʊˈɡreʃ.ən
+Unit 24,corporate client ,noun phrase,"a large business that receives professional services from an organisation",ˈkɔː.pər.ət ˈklaɪ.ənt
+Unit 24,culture-bound construct,noun phrase,"an idea based on the way of life or customs and beliefs of a particular group of people at a particular time",ˈkʌl.tʃə baʊnd kənˈstrʌkt
 Unit 24,entry level ,noun phrase,"at or relating to the lowest level of an organisation, type of work, etc.",ˈen.tri ˈlev.əl
 Unit 24,expat assignment,noun phrase,"the process of giving someone who does not live in their own country a particular job, task, or responsibility",ˌekˈspæt əˈsaɪn.mənt
-Unit 24,fill the position,verb phrase,to employ someone to do a job,fɪl ðiː pəˈzɪʃ.ən
-Unit 24,fit into their context ,verb phrase,to do something that is accepted in the existing situation ,fɪt ˈɪn.tə ðeə ˈkɒn.tekst
+Unit 24,fill the position,verb phrase,"to employ someone to do a job",fɪl ðiː pəˈzɪʃ.ən
+Unit 24,fit into their context ,verb phrase,"to do something that is accepted in the existing situation" ,fɪt ˈɪn.tə ðeə ˈkɒn.tekst
 Unit 24,intangible,adjective,"used about a feeling or quality that does not exist in a physical way, or that is difficult to describe",ɪnˈtæn.dʒə.bəl
-Unit 24,integrate with local business culture R,verb phrase,to become part of the ideas and ways of working of an organisation in a particular place,ˈɪn.tɪ.ɡreɪt wɪð ˈləʊ.kəl ˈbɪz.nɪs ˈkʌl.tʃə
+Unit 24,integrate with local business culture ,verb phrase,"to become part of the ideas and ways of working of an organisation in a particular place",ˈɪn.tɪ.ɡreɪt wɪð ˈləʊ.kəl ˈbɪz.nɪs ˈkʌl.tʃə
 Unit 24,integrated marketing plan ,noun phrase,"the business activity that involves finding out what customers want, using that information to design products and services, and selling them effectively, in a combined form ",ˈɪn.tɪɡreɪ.tɪd ˈmɑːkɪ.tɪŋ plæn
-Unit 24,international track record,noun phrase,all the achievements or failures that someone or something has had in the past involving more than one country,ˌɪn.təˈnæʃ.ən.əl træk rɪˈkɔːd
-Unit 24,middleman ,noun,a person or company that buys goods from the company that has produced them and makes a profit by selling them to a store or a user,ˈmɪd.əl.mæn
-Unit 24,pass this first hurdle,verb phrase,to have to solve a problem at the start of something before you can make progress,pɑːs ðɪs ˈfɜːst ˈhɜː.dəl
-Unit 24,post the position,verb phrase,to advertise that a job is available ,pəʊst ðiː pəˈzɪʃ.ən
+Unit 24,international track record,noun phrase,"all the achievements or failures that someone or something has had in the past involving more than one country",ˌɪn.təˈnæʃ.ən.əl træk rɪˈkɔːd
+Unit 24,middleman ,noun,"a person or company that buys goods from the company that has produced them and makes a profit by selling them to a store or a user",ˈmɪd.əl.mæn
+Unit 24,pass this first hurdle,verb phrase,"to have to solve a problem at the start of something before you can make progress",pɑːs ðɪs ˈfɜːst ˈhɜː.dəl
+Unit 24,post the position,verb phrase,"to advertise that a job is available",pəʊst ðiː pəˈzɪʃ.ən
 Unit 24,psychometric testing,noun phrase,"the activity of using tests that are designed to show someone's personality, mental ability, opinions, etc., in order to decide whether or not to employ them",ˌsaɪ.kəʊˈmet.rɪk test.ɪŋ
-Unit 24,risk-averse,adjective,not wanting to take risks,rɪsk əˈvɜːs
+Unit 24,risk-averse,adjective,"not wanting to take risks",rɪsk əˈvɜːs
 Unit 24,service line ,noun phrase,"a range of similar business activities that are sold by the same company, with different features and different prices",ˈsɜː.vɪs laɪn
 Unit 24,soft skill ,noun phrase,"a particular ability, idea, or knowledge that helps a business to be successful",sɒft skɪl
-Unit 24,standard business norm,noun phrase,a way of buying and selling goods and services or doing things that is generally accepted,ˈstæn.dəd ˈbɪz.nɪs nɔːm
-Unit 24,steep learning curve,noun phrase,the rate of someone's progress in learning a very difficult new skill,stiːp lɜːn.ɪŋ kɜːv
-Unit 24,straightforward ,adjective,easy to understand or simple,ˌstreɪtˈfɔː.wəd
-Unit 24,take lightly,verb phrase,to treat in a way that is not serious,teɪk laɪt.li
-Unit 24,take up employment ,verb phrase,to start doing a new job,teɪk ʌp ɪmˈplɔɪ.mənt
-Unit 24,transferable skill ,noun phrase,a particular ability used in one job or career that can also be used in another,træntˈsfɜː.rə.bəl skɪl
-Unit 24,withstand the rigours,verb phrase,to deal with unpleasant or severe conditions successfully,wɪðˈstænd ðiː ˈrɪg.əs;
+Unit 24,standard business norm,noun phrase,"a way of buying and selling goods and services or doing things that is generally accepted",ˈstæn.dəd ˈbɪz.nɪs nɔːm
+Unit 24,steep learning curve,noun phrase,"the rate of someone's progress in learning a very difficult new skill",stiːp lɜːn.ɪŋ kɜːv
+Unit 24,straightforward ,adjective,"easy to understand or simple",ˌstreɪtˈfɔː.wəd
+Unit 24,take lightly,verb phrase,"to treat in a way that is not serious",teɪk laɪt.li
+Unit 24,take up employment ,verb phrase,"to start doing a new job",teɪk ʌp ɪmˈplɔɪ.mənt
+Unit 24,transferable skill ,noun phrase,"a particular ability used in one job or career that can also be used in another",træntˈsfɜː.rə.bəl skɪl
+Unit 24,withstand the rigours,verb phrase,"to deal with unpleasant or severe conditions successfully",wɪðˈstænd ðiː ˈrɪg.əs;
 
     parseCSV(csvData);
   }, []);
