@@ -122,7 +122,7 @@ Unit 3,workplace,noun,"a building or room where people perform their jobs or the
 Unit 4,brief,noun,"a set of instructions or information",briːf,20.0
 Unit 4,deadline,noun,"a point in time by which something must be done",ˈded.laɪn,20.0
 Unit 4,involve,verb,"to include or affect someone or something",ɪnˈvɒlv,20.0
-Unit 4,milestone,noun,"a very important stage or event in the development of something",ˈmaɪl.stəʊn,20.0`
+Unit 4,milestone,noun,"a very important stage or event in the development of something",ˈmaɪl.stəʊn,20.0
 Unit 4,account for ,verb phrase, "to form the total of something",əˈkaʊnt fɔː
 Unit 4,attitude ,noun,"a feeling or opinion about something, especially when this shows in your behaviour",ˈæt.ɪ.tʃuːd
 Unit 4,body language,noun phrase,"body movements that show someone's thoughts and feelings",ˈbɒd.i ˈlæŋ.ɡwɪdʒ
@@ -523,7 +523,7 @@ Unit 24,straightforward ,adjective,"easy to understand or simple",ˌstreɪtˈfɔ
 Unit 24,take lightly,verb phrase,"to treat in a way that is not serious",teɪk laɪt.li
 Unit 24,take up employment ,verb phrase,"to start doing a new job",teɪk ʌp ɪmˈplɔɪ.mənt
 Unit 24,transferable skill ,noun phrase,"a particular ability used in one job or career that can also be used in another",træntˈsfɜː.rə.bəl skɪl
-Unit 24,withstand the rigours,verb phrase,"to deal with unpleasant or severe conditions successfully",wɪðˈstænd ðiː ˈrɪg.əs;
+Unit 24,withstand the rigours,verb phrase,"to deal with unpleasant or severe conditions successfully",wɪðˈstænd ðiː ˈrɪg.əs
 
     parseCSV(csvData);
   }, []);
