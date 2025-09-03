@@ -89,10 +89,36 @@ Unit 2,selling point,noun,"a characteristic of a product or service that will pe
 Unit 2,thrive,verb,"to grow, develop, and become successful",θraɪv,12.0
 Unit 2,warehouse,noun,"a large building for storing things before they are sold, used, or sent out to stores",ˈweə.haʊz,12.0
 Unit 2,workwise,adverb,"relating to work",ˈwɜːk.waɪz,12.0
-Unit 3,customs,noun,"the place at a port, airport or border where officials check goods or people coming into a country",ˈkʌs.təmz,18.0
-Unit 3,warehouse,noun,"a building where large quantities of goods are stored, especially before they are sent to shops/stores to be sold",ˈweə.haʊs,18.0
-Unit 3,logistics,noun,"the practical organisation of something",ləˈdʒɪs.tɪks,18.0
-Unit 3,procurement,noun,"the process of obtaining supplies of something, especially for a government or an organisation",prəˈkjʊə.mənt,18.0
+Unit 3,advertising campaign,noun phrase,"a planned series of advertisements that will be used in particular places at particular times in order to advertise a product or service and persuade people to buy it or use it",ˈæd.və.taɪ.zɪŋ kæmˈpeɪn,18.0
+Unit 3,approval,noun,"official permission or agreement for something",əˈpruː.vəl,18.0
+Unit 3,assign,verb,"to give a particular job or piece of work to someone",əˈsaɪn,18.0
+Unit 3,be yourself,verb phrase,"to behave in your usual manner rather than behaving in a way you think other people might like",bɪ jɔːˈself,18.0
+Unit 3,brand,noun,"the name of a product produced or sold by a particular company or what the characteristics appearance etc. a person organization product etc. is known for",brænd,18.0
+Unit 3,colleague,noun,"a person that you work with",ˈkɒl.iːɡ,18.0
+Unit 3,compile documents,verb phrase,"to collect information from papers with written or printed information especially of an official type and arrange it in a book report or list",kəmˈpaɪl ˈdɒk.jə.mənts,18.0
+Unit 3,embarrassment,noun,"when you feel nervous worried or uncomfortable",ɪmˈbær.əs.mənt,18.0
+Unit 3,emphasise,verb,"to show or state that something is very important or worth giving attention to",ˈemp.fə.saɪz,18.0
+Unit 3,file,verb,"to store information or documents carefully so that they are easy to find either in a place such as a folder or desk or on a computer",faɪl,18.0
+Unit 3,follow up,phrasal verb,"to do something to finish a previous action or make it more successful",ˈfɒl.əʊ ʌp,18.0
+Unit 3,get a complete picture,verb phrase,"to understand someone or something better",ɡet eɪ kəmˈpliːt ˈpɪk.tʃə,18.0
+Unit 3,go straight in the bin,verb phrase,"to immediately put something into a container for waste or refuse to consider something",ɡəʊ streɪt ɪn ðiː bɪn,18.0
+Unit 3,image,noun,"the way that something or someone is thought of by other people",ˈɪm.ɪdʒ,18.0
+Unit 3,initiate,verb,"to begin something",ɪˈnɪʃ.i.eɪt,18.0
+Unit 3,innovate,verb,"to develop a new design product idea etc.",ˈɪn.əʊ.veɪt,18.0
+Unit 3,inspire,verb,"to make someone feel that they want to do something and can do it",ɪnˈspaɪə,18.0
+Unit 3,intellectually stimulating,adjective phrase,"encouraging you to think and understand new and complicated ideas",ˌɪn.təlˈek.tʃu.əli ˈstɪm.jəl.eɪ.tɪŋ,18.0
+Unit 3,interact,verb,"to communicate with someone",ˌɪn.tərˈækt,18.0
+Unit 3,internship,noun,"a period of time during which a student works for a company or organization in order to get experience of a particular type of work",ˈɪn.tɜːn.ʃɪp,18.0
+Unit 3,intimidate,verb,"to frighten or threaten someone usually in order to persuade them to do something that you want them to do",ɪnˈtɪm.ɪ.deɪt,18.0
+Unit 3,logo,noun,"a design or symbol displayed on a company's products vehicles signs etc. that expresses the company's character and purpose and makes it easy for customers to recognize and remember the company",ˈləʊ.ɡəʊ,18.0
+Unit 3,mobile technology,noun phrase,"the use of scientific knowledge or processes relating to phones or computers used while travelling from place to place without being connected by wires",ˈməʊ.baɪl tekˈnɒl.ə.dʒi,18.0
+Unit 3,packaging,noun,"the materials in which objects are wrapped before being sold",ˈpæk.ɪ.dʒɪŋ,18.0
+Unit 3,prospective employer,noun phrase,"a person or organization that might employ you in the future",prəˈspek.tɪv ɪmˈplɔɪ.ə,18.0
+Unit 3,referee,noun,"a person who knows you and who is willing to describe your character and abilities in order to support you when you are trying to get a job etc.",ˌref.ərˈiː,18.0
+Unit 3,speak out freely,verb phrase,"to give your opinion about something without being controlled or limited especially on a subject which you have strong feelings about",spiːk aʊt friː.li,18.0
+Unit 3,stay on one's toes,verb phrase,"to continue directing all your attention and energy to what you are doing",steɪ ɒn aʊə təʊz,18.0
+Unit 3,wisdom,noun,"the ability to use your knowledge and experience to make good decisions and judgments",ˈwɪz.dəm,18.0
+Unit 3,workplace,noun,"a building or room where people perform their jobs or these places generally",ˈwɜːk.pleɪs,18.0
 Unit 4,brief,noun,"a set of instructions or information",briːf,20.0
 Unit 4,deadline,noun,"a point in time by which something must be done",ˈded.laɪn,20.0
 Unit 4,involve,verb,"to include or affect someone or something",ɪnˈvɒlv,20.0
